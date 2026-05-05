@@ -2,6 +2,7 @@ import { ButtonsControl, ButtonsControlOptions } from "./leafletClasses";
 import QuickdrawButton from "./buttons/quickdrawButton";
 import WasabeeButton from "./buttons/wasabeeButton";
 import SyncButton from "./buttons/syncButton";
+import CoreKeySyncButton from "./buttons/coreKeySyncButton";
 import OpButton from "./buttons/opButton";
 import LinkButton from "./buttons/linkButton";
 import MarkerButton from "./buttons/markerButton";
@@ -28,6 +29,7 @@ export function addButtons() {
     LinkButton,
     MarkerButton,
     SyncButton,
+    CoreKeySyncButton,
     UploadButton,
   ]) {
     const item = L.DomUtil.create("li", null, options.container);

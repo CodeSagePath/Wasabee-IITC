@@ -47,6 +47,7 @@ const dialogNames = {
   starburst: "wasabee-starburst",
   savelinks: "wasabee-savelinks",
   settings: "wasabee-settings",
+  coreKeySync: "wasabee-core-key-sync",
   fanfield: "wasabee-fanfield",
   skinDialog: "wasabee-settings-skins",
   setComment: "wasabee-comment",

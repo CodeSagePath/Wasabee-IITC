@@ -150,6 +150,10 @@
 .wasabee-toolbar-upload.loading {
   background-image: url(../images/loading.gif)
 }
+.wasabee-toolbar-core-key-sync {
+  background-image: url(../images/toolbar_sync.png);
+  background-size: 60%;
+}
 
 /*.wasabee-toolbar-download {
   background-image: url(../images/toolbar_download.png)
