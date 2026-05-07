@@ -206,6 +206,7 @@ module.exports = (env, argv) => {
   switch (build) {
     case "prod":
     case "dev":
+    case "hightower":
     case "testing":
     case "scot":
       config.output.path = path.join(outputPath, build);

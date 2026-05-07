@@ -15,6 +15,11 @@
             "updateURL": "https://wasabee-project.github.io/Wasabee-IITC/testing/wasabee.meta.js",
             "version": "0.22.BUILDDATE-testing"
         },
+        "hightower": {
+            "downloadURL": "https://codesagepath.github.io/Wasabee-IITC/hightower/wasabee.user.js",
+            "updateURL": "https://codesagepath.github.io/Wasabee-IITC/hightower/wasabee.meta.js",
+            "version": "0.1.BUILDDATE-hightower"
+        },
         "pr": {
             "version": "0.22-pr"
         },
@@ -34,7 +39,8 @@
     },
     "releaseFolder": {
         "prod": "./releases/prod/",
-        "dev": "./releases/dev/"
+        "dev": "./releases/dev/",
+        "hightower": "./releases/hightower/"
     },
     "src": {
         "plugin": "./src/main.js",
